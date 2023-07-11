@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@500&display=swap");
+
+.font-playfair {
+    font-family: "Playfair Display", serif;
+}
+
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.color-green {
+    color: #3e8847;
+}
+
+.color-green-50 {
+    color: rgba(208, 214, 201, 1)
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+body {
+    padding: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+a:hover {
+    color: coral !important;
+}
+
+.scale-items:hover {
+    scale: 1.1;
+}
+
+.hero-left h1 {
+    font-size: 2rem;
+}
+
+.single-leaf img {
+    display: none;
+}
+
+
+
+button:hover {
+    background-color: black !important;
+    color: white;
+    box-shadow: 0px 20px 27px 0px rgba(2, 22, 5, 0.17);
+
+}
+
+
+.plant-leaf img {
+    width: 93vw;
+    height: 81vh;
+}
+
+.plant-collection {
+    margin-top: 5rem;
+}
+
+
+
+.collection-slider .slider-button {
+    cursor: pointer;
+}
+
+.journey-section {
+    padding: 0px;
+}
+
+.journey-right-plant img {
+    height: 70vh;
+}
+
+
+.journey-left {
+    position: relative;
+}
+
+
+.journey-flower {
+    position: absolute;
+    top: -52%;
+    left: 2.5%;
+}
+
+.journey-mid-section {
+    margin-top: 8rem;
+}
+
+.advantage-card {
+    background-color: rgba(252, 251, 248, 1);
+    transition-duration: 1s;
+}
+
+.advantage-card:hover {
+    box-shadow: 0px 20px 43px 0px rgba(2, 22, 5, 0.11);
+
+}
+
+.ask-us-left {
+    background-image: url("/images/ask_us_section/ask-us-background.png");
+    min-height: 80vh;
+    min-width: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.ask-us-right {
+    box-shadow: 0px 20px 43px 0px rgba(2, 22, 5, 0.11);
+    background-color: rgba(250, 249, 247, 1);
+    z-index: 1;
+
+}
+
+input,
+textarea {
+    background-color: rgba(250, 249, 247, 1);
+}
+
+.choosing-card {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 34px 50px -28px rgba(2, 22, 5, 0.1);
+    transition-duration: 1s;
+}
+
+.choosing-card:hover {
+    background-color: rgba(62, 136, 71, 1);
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.choosing-card:hover p {
+    color: white !important;
+}
+
+.plant-care-section {
+    margin-top: 8rem;
+}
+
+.plant-care-right {
+    background-image: url("/images/care_section/plant-care-lady.png");
+    min-height: 70vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-image: url("/images/footer_section/footer-background.png");
+    background-size: cover;
+}
+
+.footer-head {
+    font-size: 2rem;
+}
+
+.clients-section {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px -4px 31px 0px rgba(2, 22, 5, 0.03);
+}
+
+.clients-card {
+    box-shadow: 0px 34px 50px -28px rgba(2, 22, 5, 0.1);
+
+}
+
+
+.clients-card:hover {
+    background-color: #3e8847;
+    color: white !important;
+    cursor: pointer;
+}
+
+.clients-card:hover i {
+    color: white !important;
+}
+
+
+@media(min-width: 768px) {
+
+    body {
+        padding: 0px;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+    .hero-left {
+        position: relative;
+        z-index: 2;
+
+    }
+
+    .hero-left h1 {
+        width: 40vw;
+    }
+
+    .single-leaf img {
+        display: inline;
+        height: 10vh;
+        width: 4vw;
+    }
+
+    .flower-pot img {
+        width: 80vw;
+        height: 55vh;
+    }
+
+    .hero-right {
+        position: absolute;
+        left: 34.3%;
+
+    }
+
+    .flower-pot {
+        z-index: 1;
+
+    }
+
+    .plant-leaf {
+        z-index: -1;
+        margin-left: -4rem;
+    }
+
+    .plant-leaf img {
+        height: 47vw;
+        width: 26vw;
+    }
+
+    .slider {
+        position: absolute;
+        left: 43%;
+        top: 105%;
+    }
+
+    .slide-bar img {
+        width: 15vw;
+    }
+
+    .plant-collection {
+        margin-top: 10rem;
+    }
+
+    .card-image img {
+        width: 25vw;
+    }
+
+    .journey-flower-background img {
+        height: 80vh;
+        width: 30vw;
+    }
+
+    .journey-flower {
+        top: -20%;
+        left: 2.5%;
+    }
+
+    .journey-flower img {
+        height: 96vh;
+    }
+
+    .journey-right p {
+        width: 32vw;
+    }
+
+    .journey-mid-section {
+        margin-top: -8rem;
+    }
+
+    .easy-order-image {
+        margin-left: -2.5rem;
+    }
+
+
+    .advantage-card {
+        width: 40vw;
+    }
+
+    .ask-us-right {
+        min-width: 50vw;
+        min-height: 65vh;
+        margin-left: -4rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .choosing-card {
+        width: 40vw;
+    }
+
+    .plant-care-left {
+        width: 32vw;
+    }
+
+    .plant-care-right {
+        min-width: 50vw;
+    }
+
+    .footer-head {
+        font-size: 5rem;
+    }
+
+    .footer-text {
+        width: 29vw;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .slider {
+        top: 88%;
+    }
+
+    .advantage-card {
+        width: 20vw;
+    }
+
+    .ask-us-right {
+        margin-bottom: 3.5rem;
+        margin-top: 3.5rem;
+    }
+
+    .choosing-card {
+        width: 20vw;
+    }
+
+    .plant-care-right {
+        min-height: 60vh;
+        min-width: 50vw;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .hero-left h1 {
+        width: 25vw;
+        font-size: 3rem;
+    }
+
+
+    .flower-pot img {
+        width: 55vw;
+        height: 74vh;
+    }
+
+    .hero-right {
+        left: 23.3%;
+
+    }
+
+    .plant-leaf {
+        margin-left: -2rem;
+    }
+
+    .plant-leaf img {
+        height: 43vw;
+    }
+
+    .slider {
+        left: 40%;
+        top: 105%;
+    }
+
+    .journey-flower {
+        left: 8.5%;
+    }
+
+    .clients-card {
+        width: 55vw;
+
+    }
+
+    .client-sliders {
+        overflow: hidden;
+    }
+
+    .client-reivew {
+        position: relative;
+        width: 50%;
+    }
+
+    .inverted-comma {
+        font-size: 5rem;
+    }
+
+    .client-image {
+        margin-left: -12rem;
+    }
+
+    .clients-slider-left img {
+        margin-left: -12rem;
+    }
+
+    .quote-up {
+        position: absolute;
+        font-size: 5rem;
+        top: -58%;
+        left: -18%;
+    }
+
+    .quote-down {
+        position: absolute;
+        font-size: 5rem;
+        left: 104%;
+    }
+}
